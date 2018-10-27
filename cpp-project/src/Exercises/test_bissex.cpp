@@ -23,7 +23,7 @@ void test_bissex() {
         }
         else {
             ok = ok && 0;
-            printf("TECHIO> message --channel 'Erreur la fonction ne passe pas le test (%d)'\n",test_val[i]);
+            printf("TECHIO> message --channel \"user debug\" 'Erreur la fonction ne passe pas le test (%d)'\n",test_val[i]);
         }
     }
         
