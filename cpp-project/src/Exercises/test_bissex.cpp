@@ -17,11 +17,11 @@ void test_bissex() {
     
     for (i=0;i<3;i++) {
         if (bissex(test_val[i])) {
-            printf("TECHIO> success true");   
+            printf("TECHIO> success true\n");   
         }
         else {
-            printf("TECHIO> success false");
-            printf("TECHIO> message --channel Erreur la fonction ne passe pas le test (%d)",test_val[i]);
+            printf("TECHIO> success false\n");
+            printf("TECHIO> message --channel 'Erreur la fonction ne passe pas le test (%d)'\n",test_val[i]);
         }
     }
     
