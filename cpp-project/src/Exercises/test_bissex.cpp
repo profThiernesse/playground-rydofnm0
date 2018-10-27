@@ -21,7 +21,6 @@ void test_bissex() {
         }
         else {
             ok = ok && 0;
-            printf("TECHIO> success false\n");
             printf("TECHIO> message --channel 'Erreur la fonction ne passe pas le test (%d)'\n",test_val[i]);
         }
 true
