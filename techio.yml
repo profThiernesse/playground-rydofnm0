@@ -1,6 +1,6 @@
-title: C++ Project
+title: Laboratoires Test
 plan:
-- title: Welcome
+- title: Exercice 1
   statement: markdowns/welcome.md
 projects:
   cpp:
