@@ -13,10 +13,12 @@ int main()
 
 void test_bissex() {
     
-    int i, test_val[3]={2004,2000,1000};
+    int i;
+    int test_val[3]={2004,2000,1000};
+    int res_val[3]={1,1,0};
     int ok=1;
     for (i=0;i<3;i++) {
-        if (bissex(test_val[i])) {
+        if (bissex(test_val[i])==res_val[i]) {
             ok = ok && 1;
         }
         else {
